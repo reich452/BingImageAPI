@@ -11,9 +11,11 @@ import UIKit
 
 class ImageController {
     
+    static let baseUrlString = "https://api.cognitive.microsoft.com/bing/v5.0/images/search?"
+    
     static func image(forURL url: String, completion: @escaping (UIImage?) -> Void) {
         
-        guard let url = URL(string: url) else {
+        guard let url = URL(string: "\(baseUrlString)\(url)") else {
             fatalError("Image URL optional is nil")
         }
         

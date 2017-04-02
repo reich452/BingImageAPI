@@ -13,7 +13,7 @@
         <!--DeckadeSearch-->
         <scene sceneID="tW9-hY-BP2">
             <objects>
-                <tableViewController id="vw9-VX-Adx" sceneMemberID="viewController">
+                <tableViewController id="vw9-VX-Adx" customClass="ImageTableViewController" customModule="BingImageSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="446" sectionHeaderHeight="28" sectionFooterHeight="28" id="CY6-aA-F9u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="446" id="wZo-0b-jZB">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="446" id="wZo-0b-jZB" customClass="ImageTableViewCell" customModule="BingImageSearch" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="446"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wZo-0b-jZB" id="aQn-M8-y8u">
